@@ -31,7 +31,13 @@ The color was chosen to create a friendly, warm, and motivating atmosphere. It g
 
 ## Demo
 
-🌸 https://www.youtube.com/watch?v=h97bpiHka7Q
+![Main Page](https://imj31us4am50.github.io/imgs/ss_main.gif)
+
+![Timer Page](https://imj31us4am50.github.io/imgs/ss_timer.gif)
+
+![Resources Page](https://imj31us4am50.github.io/imgs/ss_resources.gif)
+
+
 ## Lessons Learned
 
 I improved my skills in structuring content efficiently and gained practical experience working with SVG graphics, creating a collapsible mobile navigation menu, and implementing CSS animations and transitions.
