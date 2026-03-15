@@ -1,0 +1,29 @@
+::-webkit-input-placeholder,
+input {
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+}
+input {
+  border: 1px solid #ff9db0;
+  border-radius: 5px;
+}
+.abba {
+  text-indent: -0.5em;
+}
+
+.off{
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+.check{
+  float:left;
+  margin-top: 5px;
+}
+
+.para{
+  margin-left: 25px;
+  font-size: 1rem;
+}

@@ -1,0 +1,50 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #f2a6b5;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    padding: 1.3em 6em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.4em 0.2em;
+    cursor: pointer;
+    padding: 1em 4.4em;
+  }
+  
+  .btn_in {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 1em;
+    border-color: #f2a6b5;
+    color: #f2a6b5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.2em 0.2em;
+  }
+  
+  .container {
+    background-color: #f2a6b5;
+    border-radius: 1em;
+    color: white;
+    padding: 1em 4em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 4px 2px;
+    cursor: pointer;
+    max-width: 13em;
+  } 
+
+  .btn:hover{
+      color:#eeeeee;
+  }

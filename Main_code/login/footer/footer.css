@@ -1,0 +1,20 @@
+  .socials-icon {
+    max-width: 40px;
+  }
+  
+  .socials-icon:hover {
+    cursor: pointer;
+  }
+  
+  .container-of-socials,
+  .copyright {
+    width: fit-content;
+  }
+  
+  .footer-container * {
+    user-select: none;
+  }
+  
+  .f{
+    margin-top: 20%;
+  }

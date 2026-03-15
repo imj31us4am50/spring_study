@@ -1,0 +1,12 @@
+.title-mc,
+.descriere-mc {
+  width: fit-content;
+}
+
+a:hover {
+  color: #ff9db0;
+}
+
+.main-content {
+  max-width: 900px;
+}

@@ -1,0 +1,142 @@
+.logo {
+  max-width: 7em;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  max-width: 2.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar-list-container {
+}
+
+.dropdown-list-container {
+  display: none;
+}
+
+/* STYLING FOR NAVBAR LIST > 760PX */
+
+.list-item-1:hover,
+.list-item-d-1:hover span,
+.sublist-item-1:hover {
+  cursor: pointer;
+  color: #ff9db0;
+}
+
+.sublist-item-1 {
+  padding: 0.1em;
+  font-size: 0.9rem;
+}
+
+.list-item-1,
+.list-item-d-1 {
+  margin: 0.5em;
+}
+
+.dropdown-content-1 {
+  position: relative;
+}
+
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: fit-content;
+}
+
+.dropdown-1:hover .dropdown-content-1 {
+  display: block;
+}
+
+/* STYLING FOR DROPDOWN NAVBAR LIST < 760PX */
+
+.list-item-2:hover,
+.list-item-d-2:hover span,
+.sublist-item-2:hover {
+  cursor: pointer;
+  color: #ff9db0;
+}
+
+.sublist-item-2 {
+  padding: 0.3em;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: auto;
+}
+
+.list-item-2,
+.list-item-d-2 span {
+  padding: 0.3em;
+  margin: 0.05em;
+  text-align: center;
+}
+
+.dropdown-content-2 {
+  display: none;
+  z-index: 1;
+  width: fit-content;
+}
+
+.dropdown-2:hover .dropdown-content-2 {
+  display: block;
+}
+
+.dropdown-icon:hover {
+  cursor: pointer;
+}
+/* 
+.dropdown-icon {
+  position: relative;
+} */
+.dropdown-list {
+  padding-top: 1em;
+  font-size: 1.125rem;
+  /* display: none;
+  position: absolute; */
+  z-index: 1;
+  width: fit-content;
+  overflow: hidden;
+  width: 100%;
+  display: none;
+  transition: display 3s;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff9db0;
+}
+
+.curr {
+  color: #ff9db0;
+}
+
+/* .dropdown-list-container:hover .dropdown-list {
+  display: block;
+} */
+
+/* MEDIA FOR NAVBAR/DROPDOWN SWITCH */
+
+@media screen and (max-width: 760px) {
+  .dropdown-list {
+    display: none;
+  }
+
+  .navbar-list-container {
+    display: none;
+  }
+
+  .dropdown-list-container {
+    display: inline-block;
+  }
+
+  .navbar-main {
+    background: rgba(255, 157, 176, 0.3);
+  }
+}

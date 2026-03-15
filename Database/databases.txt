@@ -1,0 +1,6 @@
+-- users
+CREATE TABLE users(id INT NOT NULL AUTO_INCREMENT, username VARCHAR(255),src VARCHAR(255), password VARCHAR(255), email VARCHAR(255), bio VARCHAR(500), primary key (id) );
+
+-- comments
+
+CREATE TABLE comments(id INT NOT NULL AUTO_INCREMENT, username VARCHAR(255), email VARCHAR(255), content VARCHAR(500), primary key (id) );

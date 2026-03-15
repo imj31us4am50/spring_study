@@ -1,0 +1,20 @@
+.footer-container {
+  /* background: rgba(255, 157, 176, 0.5); */
+}
+
+.socials-icon {
+  max-width: 40px;
+}
+
+.socials-icon:hover {
+  cursor: pointer;
+}
+
+.container-of-socials,
+.copyright {
+  width: fit-content;
+}
+
+.footer-container * {
+  user-select: none;
+}
